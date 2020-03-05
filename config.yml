@@ -1,0 +1,71 @@
+Prefix: "&b[Snowk]&e"
+
+# function choose #1
+enableTeleportListener: true
+
+# Worlds that you do not allow to teleport with banned items
+BannedWorlds:
+  - RPG
+
+# World that you would like teleport Players back with the coordiantes
+spawnWorld: world
+spawnPosX: 2065
+spawnPosY: 72
+spawnPosZ: 3245
+
+# BannedItem List by IDs
+bannedItemId:
+  # SlashBlades
+  - 4279
+  - 4280
+  - 4281
+  - 4282
+  - 4283
+  - 4284
+  - 4285
+  - 4294
+  - 4295
+  - 4296
+  - 4297
+  - 4298
+  # JetPPacks
+  - 4153
+  - 4154
+  - 4157
+  - 4162
+
+
+# function choose #2
+enableBladeBugFixer: true
+# here may contain your SlashBlades' IDs
+bugItemId:
+  - 4279
+  - 4280
+  - 4281
+  - 4282
+  - 4283
+  - 4284
+  - 4285
+  - 4294
+  - 4295
+  - 4296
+  - 4297
+  - 4298
+
+# Messages
+MessageRejectItem: "RPG世界拒绝了您的物品，请检查背包 物品ID： &c"
+MessageTeleportBack: "&4&l&k&m---&c&l一股邪恶的力量把您禁锢在了主世界&4&l&k&m---"
+
+MessageLock1: "您在进行右键的同时，该物品无法被丢出！ "
+MessageLock2: "物品§c已上锁§e，需要 §a切换手持物品 §e来解锁丢弃"
+MessageUnlock: "叮!您刚才的攻击十分帅气！"
+
+MessageReload: "插件重载成功！"
+MessageReloadState1: "传送监测功能已启用"
+MessageReloadState2: "传送监测功能已禁用"
+MessageReloadState3: "拔刀剑SA刷刀修复器已启用"
+MessageReloadState4: "拔刀剑SA刷刀修复器已禁用"
+MessageNoPermission: "尚无相关权限组"
+ 
+
+
